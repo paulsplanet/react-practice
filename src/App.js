@@ -1,17 +1,9 @@
 import React from "react";
+import MyComponent from "./MyComponent";
 
-function App() {
-  const style = {
-    fontWeight: 600,
-    color: "pink",
-    backgroundColor: "grey",
-  };
-  return(
-    <div>
-      <h1 style={style}>Hello, React!</h1>
-      <h2>Are you on?</h2>    
-    </div>
-  )
+
+const App = () => {
+  return <MyComponent name={"Luna"} favoriteNumber={7}>React</MyComponent>
 }
 
 export default App;
