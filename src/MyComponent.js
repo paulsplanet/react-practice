@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 class MyComponent extends Component {
     static defaultProps ={
-        name: "Paul"
+        name: "Paul",
     };
     static propTypes = {
         name: PropTypes.string,

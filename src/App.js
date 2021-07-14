@@ -1,9 +1,10 @@
 import React from "react";
-import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
+// <MyComponent name={"Luna"} favoriteNumber={7}>React</MyComponent> = comopenet practice
 
 const App = () => {
-  return <MyComponent name={"Luna"} favoriteNumber={7}>React</MyComponent>
+  return <Counter />
 }
 
 export default App;
