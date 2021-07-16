@@ -1,12 +1,13 @@
 import React from "react";
-import EventPracticeii from "./EventPracticeFnc";
+import ValidationSample from "./ValidationSample";
+
 
 
 
 // <MyComponent name={"Luna"} favoriteNumber={7}>React</MyComponent> = comopenet practice
 
 const App = () => {
-  return <EventPracticeii />
+  return <ValidationSample />
 }
 
 export default App;
